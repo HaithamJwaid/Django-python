@@ -30,7 +30,7 @@ router.register(r'books', views.BookViewSet, basename='book')
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    #path('books/', views.BookListView.as_view(), name='book-list'),
-    #path('books/<int:pk>/', views.BookDetailView.as_view(), name='book-detail'),
-path('api/', include((router.urls, 'api'), namespace='api')), 
+    path('books/', views.BookListView.as_view(), name='book-list'),
+    path('books/<int:pk>/', views.BookDetailView.as_view(), name='book-detail'),
+    path('api/', include((router.urls, 'api'), namespace='api')), 
 ]
