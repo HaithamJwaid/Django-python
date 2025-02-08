@@ -1,5 +1,7 @@
 # Distributed-System
 
+Windows open PowerShell
+
 Create bookproject Python Django-Projekt
 
 1- django-admin startproject bookproject
@@ -35,19 +37,23 @@ create a serialzer and Viewsets:
 .
 as comited
 
-than call 
+then call 
 http://127.0.0.1:8000/
 
-than
+then
 
 http://127.0.0.1:8000/api/
 
-than
+then
 
 http://127.0.0.1:8000/api/books
 
-than
+then
 
 http://127.0.0.1:8000/api/books/1/
 
+
+To get html Files open the Link
+
+http://127.0.0.1:8000/books/
 
